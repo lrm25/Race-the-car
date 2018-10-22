@@ -1,3 +1,5 @@
+import pygame
+
 BOARDHEIGHT = 7
 BOARDWIDTH = 7
 TILESIZE = 92
@@ -71,3 +73,13 @@ flagImg1 = pygame.image.load("red2.jpg")
 hmImg1 = pygame.image.load("hm2.jpg")
 
 FENCELIMIT = 8  # The maximum numbr of fences a player can use
+
+# Board space ID's
+PLAYER_ONE = 1
+PLAYER_TWO = 2
+OPEN_SPACE = 3
+
+# Board positions
+BOARDWIDTH_CENTER = BOARDWIDTH - int(BOARDWIDTH/2) - 1
+ONE_STARTING_ROW = BOARDHEIGHT - 1
+TWO_STARTING_ROW = 0

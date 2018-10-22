@@ -7,16 +7,6 @@ player1Fence = []  # records the position of the fences by player1
 player2Fence = []  # records the position of the fences by player2
 TotalFence = []  # recors the co-ordinates of all fences
 
-# Board space ID's
-PLAYER_ONE = 1
-PLAYER_TWO = 2
-OPEN_SPACE = 3
-
-# Board positions
-BOARDWIDTH_CENTER = BOARDWIDTH - int(BOARDWIDTH/2) - 1
-ONE_STARTING_ROW = BOARDHEIGHT - 1
-TWO_STARTING_ROW = 0
-
 def main():
     global FPSCLOCK, DISPLAYSURF, BASICFONT, FENCE_SURF, FENCE_RECT, MOVE_SURF, MOVE_RECT, SOLVE_SURF, SOLVE_RECT
     pygame.init()

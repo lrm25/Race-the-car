@@ -1,16 +1,6 @@
 import pytest
 import Race_the_car
-
-BOARDWIDTH = Race_the_car.BOARDWIDTH
-BOARDHEIGHT = Race_the_car.BOARDHEIGHT
-
-OPEN_SPACE = Race_the_car.OPEN_SPACE
-PLAYER_ONE = Race_the_car.PLAYER_ONE
-PLAYER_TWO = Race_the_car.PLAYER_TWO
-
-BOARDWIDTH_CENTER = Race_the_car.BOARDWIDTH_CENTER
-ONE_STARTING_ROW = Race_the_car.ONE_STARTING_ROW
-TWO_STARTING_ROW = Race_the_car.TWO_STARTING_ROW
+from constants import *
 
 def test_getStartingBoard():
     board = Race_the_car.getStartingBoard(OPEN_SPACE)
